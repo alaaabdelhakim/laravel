@@ -1,0 +1,333 @@
+/*****
+*
+*
+*Author Name : Mostafizur Rahman
+*Author URI : http://mostafiz.me/
+*Version : 1.1
+*Description : This is a responsive HTML & Bootstrap template developed by Mostafizur Rahman
+*Template URI : http://mostafiz.me/demo/doctor/
+*
+*
+****/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'BenchNine', sans-serif;
+}
+li {
+    list-style: none;
+}
+a:hover,
+a:visited,
+a {
+    text-decoration: none;
+}
+h1,
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*header area*/
+
+.top-header {
+    background: #fff !important;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+.header-backup {
+    width: 20px;
+    height: 109px;
+    background: transparent;
+    margin: auto;
+}
+.top-header img.logo {
+    margin-bottom: 13px;
+    margin-top: 13px;
+    transition: all .5s ease 0s;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0;
+    transition: all .5s ease 0s;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+}
+.nav-bar {
+    margin-top: 12px;
+}
+.navbar-toggle span {
+    color: #fff;
+}
+ul.nav {
+    margin: 0;
+    padding: 0;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #737373;
+    text-transform: uppercase;
+    transition: all .7s ease 0s;
+    -webkit-transition: all .7s ease 0s;
+    -moz-transition: all .7s ease 0s;
+    -o-transition: all .7s ease 0s;
+    -ms-transition: all .7s ease 0s;
+    padding: 14px 14px;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #0000ff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+li a.active {
+        color: #0000ff !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+    margin-top: 4px;
+}
+
+/*slider area*/
+
+.slider-row {
+    margin: 0;
+    padding: 0;
+}
+.slider-wrapper {
+    margin: 0;
+    padding: 0 !important;
+    background: #000 !important;
+}
+.carousel-caption h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.carousel-caption p {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+}
+.carousel-caption button {
+    width: 240px;
+    height: 60px;
+    background:  #0000ff;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    border: 0;
+    transition: all .5s ease 0s;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+	font-family: 'Playball',cursive
+}
+.carousel-caption button:hover {
+    background: #00ffff;
+	color: #0000ff
+}
+.carousel-control {
+    width: 5%;
+}
+.carousel-inner {
+    background: -webkit-linear-gradient(left, #000, blue);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #000, blue);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #000, blue);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #000, blue);
+    /* Standard syntax */
+}
+.item {
+    position: relative;
+}
+.carousel-caption {
+    position: absolute;
+    text-align: left;
+    left: 12%;
+    line-height: 1;
+    top: 50%;
+    margin-top: -100px;
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+    font-size: 18px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 50%;
+    color: transparent;
+    margin-left: 0;
+    margin-top: 50px;
+}
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+    font-size: 18px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 50%;
+    color: transparent;
+    margin-right: 0;
+    margin-top: 50px;
+}
+
+
+/* just for demo purpose */
+
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+    height: 100%;
+}
+
+/******************************
+responsive area
+********************************/
+
+
+/* md */
+@media (min-width: 992px){
+	.top-header img.logo {
+		width: 40%
+	}
+	.carousel-caption h1 {
+    font-size: 85px;
+	}
+	.carousel-caption p {
+    font-size: 35px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-default .navbar-nav>li>a {
+        font-size: 20px;
+        padding: 14px 12px;
+    }
+    .carousel-caption h1 {
+        font-size: 120px;
+    }
+    .carousel-caption p {
+        font-size: 32px;
+    }
+    .carousel-caption button {
+        width: 215px;
+        height: 55px;
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 75px !important;
+    }
+    h4 {
+        font-size: 22px !important;
+    }
+    .person-detail h3 {
+        font-size: 26px;
+    }
+    .person-detail p {
+        font-size: 12px;
+    }
+	.top-header img.logo {
+		width: 40%
+	}
+
+}
+.slide .item img{
+	height: 490px;
+    width: 100%;
+}
+.footer ul li:hover{
+	background-color: #000fff !important
+}
+#aboutus{
+	    background-image: url(../img/about-us.png);
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#aboutus .heading h2,#aboutus .heading h3{
+	color: #fff
+}
+#aboutus .container{
+	    padding-bottom: 50px;
+	background-color: rgb(0,0,0,0.2)
+}
+.footer{
+	background-image: url(../img/footer-background-img.png)
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+	background-color: #fff
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0000ff; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00ffff
+}
+#Sidenav a {
+	position: fixed;
+	right: -60px;
+	transition: 0.3s;
+	padding: 7px;
+	width: 100px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	border-radius:5px 0   0 5px;
+	margin-bottom: 10px
+}
+
+#Sidenav a:hover {
+	right: 0;
+	background-color: #fff;
+}
+#Sidenav a:hover span{
+	display: none
+}
+
+#Sidenav a img{
+	display: none
+}
+#Sidenav a:hover img{
+	display: block
+}
+#icon1 {
+	top: 140px;
+	background-color: #999;
+}
+
+#icon2 {
+	top: 200px;
+	background-color: #999
+}
+.contact .heading h4 i{
+	color: #0000ff
+}
